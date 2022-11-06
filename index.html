@@ -5,61 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to zippy</title>
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css">
-    <script src = "index.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   
 </head>
 <body>
-   <!--Preloader-->
-   <div id="preloader"></div>
-     <!--Preloader end-->
-    <div class = "main-container">
-        <!--Header-Section-->
-        <div class ="header" >
-        
-            <div class="navbar">
-            <div class ="logo">ZIPPY</div>
-            <div class="nav-items">
-            <a href="/">HOME</a>
-            <a href="/">PROJECTS</a>
-            <a href="/">PRICING</a>
-            <a href="/">TEAM</a>
-            <a href="/">CONTACTS</a>
-            <a href ="/">BLOGS</a>
-            </div>
-            </div>
-            <div class ="casousel-container">
-                <div class="carousel-item">
-                    <img src="assets/wallpaper1.jpg"/>
-                    <div class="carousel-content">
-                        <h1></h1>
-                         <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class= "carousel-item" >
-                    <img src="assets/wallpaper3.jpg"/>
-                    <div class="carousel-content">
-                        <h1></h1>
-                         <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-                <div class= "carousel-item">
-                    <img src="assets/wallpaper2.jpg"/>
-                    <div class="carousel-content">
-                        <h1></h1>
-                         <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-            </div>
-
-         <!-- <img src = "assets/wallpaper1.jpg" src= "flower"/> -->
-         <div class = "body-content">
-         <h1>My title of page</h1>
-         </div>
-         <div class="footer">Myfooter</div>
+   <header>
+    <div class="navbar">
+        <a href="" class="logo">ZIPPY</a>
+        <div class="navigation">
+           <div class="nav-items">
+           <i class="uil uil-times nav-close-btn"></i>
+           <a href="#" ><i class="uil uil-home"></i>HOME</a>
+           <a href="#" ><i class="uil uil-compass"></i>PROJECTS</a>
+           <a href="#" ><i class="uil uil-document-layout-left"></i>BLOG</a>
+           <a href="#" ><i class="uil uil-document-layout-left"></i>PRICES</a>
+           <a href="#" ><i class="uil uil-envelope"></i>CONTACT</a>
+           </div>
         </div>
-        <!--Header-Section-End-->
-    </div> 
+        <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+   </header>
+   <section class="home">
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/wallpaper1.jpg" />
+        </div>
+    </div>
+    <div thumbsSlider="" class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/wallpaper1.jpg" />
+        </div>
+      </div>
+    </div>
+   </section>
+   <script src = "index.js"></script>
+   <script src = "assets/swiper-bundle.min.js"></script>
 </body>
 </html>
