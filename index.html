@@ -1,48 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to zippy</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
-   <header>
-    <div class="navbar">
-        <a href="" class="logo">ZIPPY</a>
-        <div class="navigation">
-           <div class="nav-items">
-           <i class="uil uil-times nav-close-btn"></i>
-           <a href="#" ><i class="uil uil-home"></i>HOME</a>
-           <a href="#" ><i class="uil uil-compass"></i>PROJECTS</a>
-           <a href="#" ><i class="uil uil-document-layout-left"></i>BLOG</a>
-           <a href="#" ><i class="uil uil-document-layout-left"></i>PRICES</a>
-           <a href="#" ><i class="uil uil-envelope"></i>CONTACT</a>
-           </div>
+
+  <header id="'header">
+    <div class="nav-bar">
+      <a href="/" class="logo">ZIPPY</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="#header"><i class="uil uil-home"></i> Home</a>
+          <a href="#projects"><i class="uil uil-compass"></i> Projects</a>
+          <a href="#pricings"><i class="uil uil-info-circle"></i> Pricing</a>
+          <a href="#blogs"><i class="uil uil-document-layout-left"></i> Blog</a>
+          <a href="#contacts"><i class="uil uil-envelope"></i> Contact</a>
         </div>
-        <i class="uil uil-apps nav-menu-btn"></i>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
     </div>
-   </header>
-   <section class="home">
+  </header>
     <div class="swiper bg-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="assets/wallpaper1.jpg" />
+          <img src="assets/wallpaper3.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">PROJECT BLUE<span>PROJECT 1</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 dolorem sint magnam cum accusamus repellendus quam! Molestiae tempora molestias eligendi?</p>
+            <!-- <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button> -->
+          </div>
         </div>
-    </div>
-    <div thumbsSlider="" class="swiper bg-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="assets/wallpaper1.jpg" />
+        <div class="swiper-slide dark-layer">
+          <img src="assets/wallpaper2.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">PROJECT GREEN<span>PROJECT2</span></h2>
+            <p>Lorem ipsum, dolor sit amet 
+                consectetur adipisicing elit. Rem recusandae dicta non eos pariatur quam amet iure voluptatum dignissimos sequi.</p>
+            <!-- <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button> -->
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="assets/wallpaper1.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">PROJECT RED<span>Project3</span></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Consectetur beatae temporibus magni est vero? Soluta odit aut necessitatibus expedita beatae.</p>
+            <!-- <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button> -->
+          </div>
         </div>
       </div>
     </div>
-   </section>
-   <script src = "index.js"></script>
-   <script src = "assets/swiper-bundle.min.js"></script>
+    
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="assets/wallpaper3.jpg" class="swiper-slide" alt="">
+        <img src="assets/wallpaper2.jpg" class="swiper-slide" alt="">
+        <img src="assets/wallpaper1.jpg" class="swiper-slide" alt="">
+        <!-- <img src="assets/wallpaper1.jpg" class="swiper-slide" alt=""> -->
+      </div>
+    </div>
+  </section>
+  <section class="project section" id="projects">
+    <h2>PROJECTS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+  </section>
+
+  <section class="pricing section" id="pricings">
+    <h2>BEST PRICES</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  </section>
+
+  <section class="blog section" id="blogs">
+    <div class="blogs">
+      <h2>BLOG</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut dolorum eos,
+           possimus libero nesciunt nulla impedit laboriosam vel maxime?</p>
+      </div>
+      </p>
+    </div>
+  </section>
+  
+    <section class="contact section" id = 'contacts'>
+      <h2>Whatsapp NO. : +91-XXXXXXXX45</h2>
+      <h2><a href="www.zippy.com">WEBSITE</a></h2>
+    </section>
+
+  
+
+  <script src="assets/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+
 </body>
 </html>
